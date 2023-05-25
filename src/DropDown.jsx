@@ -12,7 +12,7 @@ const solutions = [
   },
   {
     name: "Call us",
-    to: "tel:+91-7454842008",
+    to: "tel:+91-8791133877",
     icon: <BiPhoneCall className="text-sky-400 text-3xl" />,
   },
   {

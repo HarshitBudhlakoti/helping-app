@@ -46,6 +46,72 @@ const App = () => {
             <UserFormPage problem="Plumber" data={data} setData={setData} />
           }
         />
+        <Route
+          path="barberForm"
+          element={
+            <UserFormPage problem="Barber" data={data} setData={setData} />
+          }
+        />
+        <Route
+          path="gardnerForm"
+          element={
+            <UserFormPage problem="Gardner" data={data} setData={setData} />
+          }
+        />
+        <Route
+          path="painterForm"
+          element={
+            <UserFormPage problem="Painter" data={data} setData={setData} />
+          }
+        />
+        <Route
+          path="photographerForm"
+          element={
+            <UserFormPage problem="Photographer" data={data} setData={setData} />
+          }
+        />
+        <Route
+          path="doctorForm"
+          element={
+            <UserFormPage problem="Doctor" data={data} setData={setData} />
+          }
+        />
+        <Route
+          path="cobblerForm"
+          element={
+            <UserFormPage problem="Cobbler" data={data} setData={setData} />
+          }
+        />
+        <Route
+          path="tailorForm"
+          element={
+            <UserFormPage problem="Tailor" data={data} setData={setData} />
+          }
+        />
+        <Route
+          path="tutorForm"
+          element={
+            <UserFormPage problem="Tutor" data={data} setData={setData} />
+          }
+        />
+        <Route
+          path="architectForm"
+          element={
+            <UserFormPage problem="Architect" data={data} setData={setData} />
+          }
+        />
+        <Route
+          path="carpenterForm"
+          element={
+            <UserFormPage problem="Carpenter" data={data} setData={setData} />
+          }
+        />
+        <Route
+          path="beauticianForm"
+          element={
+            <UserFormPage problem="Beautician" data={data} setData={setData} />
+          }
+        />
       </Routes>
     </>
   );
