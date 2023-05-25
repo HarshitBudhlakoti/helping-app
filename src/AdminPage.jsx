@@ -20,7 +20,7 @@ const AdminPage = ({ status }) => {
   };
   if (finalData[0] === undefined) {
     return (
-      <div className="bg-[url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80')] bg-cover  bg-no-repeat">
+      <div className="bg-[url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80')] bg-cover bg-no-repeat">
         <Link to="/" className="fixed top-0 right-0 text-3xl m-4">
           <BsBackspaceFill />
         </Link>
@@ -31,7 +31,7 @@ const AdminPage = ({ status }) => {
     );
   } else {
     return (
-      <div className="bg-[url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80')] bg-cover  bg-no-repeat">
+      <div className="bg-[url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80')] bg-cover h-screen bg-scroll  bg-no-repeat">
         <Link to="/" className="fixed top-0 right-0 text-3xl m-4">
           <BsBackspaceFill />
         </Link>

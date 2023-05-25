@@ -25,7 +25,7 @@ const UserFormPage = ({ problem, data }) => {
   });
   return (
     <>
-      <div className="flex mt-2 flex-col justify-center items-center ">
+      <div className="flex flex-col justify-center items-center bg-[url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80')] bg-cover h-screen  bg-no-repeat">
         <form
           onSubmit={formik.handleSubmit}
           className="flex flex-col w-max h-max rounded-xl p-8 gap-4 bg-gray-200 shadow-lg shadow-black"

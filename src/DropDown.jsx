@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const solutions = [
   {
     name: "Admin",
-    to: "/adminLoginPage",
+    to: "/adminPage",
     icon: <GrUserAdmin className="text-red-500 text-3xl" />,
   },
   {
@@ -17,7 +17,7 @@ const solutions = [
   },
   {
     name: "Connect through mail",
-    to: "mailto:harshitbudhlakoti00@gmail.com",
+    to: "https://mail.google.com/mail/?view=cm&fs=1&to=someone@example.com&su=SUBJECT&body=BODY&bcc=someone.else@example.com",
     icon: <AiOutlineMail className="text-red-500 text-3xl" />,
   },
   {
