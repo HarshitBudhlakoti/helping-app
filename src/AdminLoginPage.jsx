@@ -34,7 +34,7 @@ function AdminLoginPage({ func }) {
       </Link>
       <form
         onSubmit={formik.handleSubmit}
-        className="h-screen flex justify-center items-center flex-col gap-2 bg-[url('adminl.avif')] bg-cover  bg-no-repeat"
+        className="h-screen flex justify-center items-center flex-col gap-2 bg-[url('https://img.freepik.com/premium-vector/network-connection-background-abstract-style_23-2148875738.jpg')] bg-cover  bg-no-repeat"
       >
         <div>
           <div className="text-red-500 text-3xl font-extrabold text-center pb-10">
